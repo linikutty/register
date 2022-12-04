@@ -1,0 +1,251 @@
+    .weather_display{
+      /* margin:0; */
+      /* display: flex; */
+      /* justify-content: center;
+      align-items: center; */
+      height: 100% !important;
+      background: linear-gradient(blue,white,blue);
+    }
+    body{
+      background:linear-gradient(yellow,white);
+    }
+    
+    .label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    
+    }
+    .btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    padding-bottom: 5px;
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 100px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 100px;
+    padding: 5px;
+    }
+    .from{
+      margin-top: 10%!important;
+      margin-bottom: 8%!important;
+      background-color:rgb(22, 208, 22);
+    }
+  
+    .del{
+      color:red;
+    }
+    .nav_head{
+
+      background-color: rgb(36, 165, 26)!important;
+     
+    }
+    .link{
+      color: white !important;
+      font-size: 35px;
+      font-family:'Times New Roman', Times, serif;
+      padding-left: 25px;
+    }
+    .head{
+      padding-top: 15px;
+      text-align: center;
+     
+    }
+    .home_head{
+      text-align: center;
+      padding-top: 10%;
+      font-size: 80px;
+      color:rgb(12, 7, 70);
+      font-style: italic;
+      font-family:'Times New Roman', Times, serif;
+    }
+    .list{
+      font-size: 30px;
+      font-family:'Times New Roman', Times, serif;
+      text-align: center;
+      list-style: none;
+      font-style: italic;
+      padding: 10px;
+      color: rgba(13, 4, 38, 0.871);
+
+    }
+    /* weather app */
+
+    .weather{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 380px;
+      padding: 20px 10px;
+      margin: auto;
+      border-radius: 4px;
+      box-shadow: 0 3px 6px 0 #555;
+      background: rgb(70, 225, 70);
+      font-family:'Times New Roman', Times, serif;
+    }
+
+    .head{
+      color: darkgreen;
+      margin: 20px auto;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .front_img{
+      width:100%;
+      height: 150px;
+      margin: 0 auto;
+    }
+
+    .form{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 20px;
+      border: black solid 1px;
+      border-radius: 2px;
+    }
+
+    .search{
+      padding: 10px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .city_btn{
+      background-color: black;
+      font-size: 14px;
+      padding: 0 10px;
+      color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .para{
+      /* color:forestgreen; */
+      font-size: 18px;
+      padding-top: 20px;
+    }
+
+    .para_p{
+      font-size: 25px;
+      font-style:oblique;
+      
+      
+    }
+    .cloudy {
+      background-image: url('./cloudy.png');
+      background-size: cover;
+      transition: 0.4 ease-out;
+      width: 60%;
+      height: 160px;
+      border: 0px solid blue;
+      border-radius: 0px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .strom {
+      background-image: url('./storm.png');
+      background-size: cover;
+      transition: 0.4 ease-out;
+      width: 52%;
+      height: 200px;
+      border: 0px solid blue;
+      border-radius: 0px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+    
+    /* weather show page */
+
+    /* .display{
+      display: flex;
+      width: 100%;
+      margin: 30px auto;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .show{
+      margin: 20px auto;
+      text-transform: capitalize;
+      font-size: 14px;
+    }
+    .degree{
+        font-size: 28px;
+    }
+    .condition{
+      width: 100px;
+      height: 100px;
+      margin: 5px auto;
+    }
+    .location{
+      margin: 15px auto;
+      text-transform: capitalize;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .info{
+      margin: 20px 25px 10px;
+      text-transform: capitalize;
+      text-align: start;
+      width: 90%;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .season{
+      
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+    .infolabel{
+      display: flex;
+      
+      flex-direction: column;
+      font-size: 14px;
+      margin: 15px;
+    }
+    .infocontainer{
+      display: flex;
+      margin: 5px 10px;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    } */
